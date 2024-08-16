@@ -18,15 +18,15 @@
 
 /*aplicando cores bases que foram aprovadas no briefing*/
 :root{
-    --cor1: #7a121b; 
-    --cor2: #ffc814f6;
-    --cor3: #b96437;
-    --cor4: #53382f;
-    --cor5: #bd995d;
+    --cor1: #eaddf9; 
+    --cor2: #ccc0d6;
+    --cor3: #b296d9;
+    --cor4: #574f73;
+    --cor5: #ded3e3;
 }
 
 body, html{
-    background: #7a121b;
+    background: var(--cor2);
     width: 100%;
 	height: 100%;
 	margin: 0;    
