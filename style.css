@@ -3,11 +3,11 @@
 /*Importando duas fontes*/
 @font-face {
     font-family: especial;
-    src: url(fonte/TT\ Interphases\ Pro\ Mono\ Trial\ Bold.ttf)
+    src: url(fonte/Darling\ Coffee.otf)
 }
 @font-face {
     font-family: normal;
-    src: url(FONTES/BAHNSCHRIFT\ 1.TTF);
+    src: url(fonte/TT\ Interphases\ Pro\ Mono\ Trial\ Bold.ttf)
 }
 
 *{
