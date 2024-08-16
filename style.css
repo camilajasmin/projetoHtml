@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/*Importando duas fontes*/
+@font-face {
+    font-family: especial;
+    src: url(FONTES/LT\ Glockenspiel\ Black.ttf);
+}
+@font-face {
+    font-family: normal;
+    src: url(FONTES/BAHNSCHRIFT\ 1.TTF);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*aplicando cores bases que foram aprovadas no briefing*/
+:root{
+    --cor1: #7a121b; 
+    --cor2: #ffc814f6;
+    --cor3: #b96437;
+    --cor4: #53382f;
+    --cor5: #bd995d;
+}
+
+body, html{
+    background: #7a121b;
+    width: 100%;
+	height: 100%;
+	margin: 0;    
+    
+}
