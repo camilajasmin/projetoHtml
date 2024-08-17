@@ -32,3 +32,18 @@ body, html{
 	margin: 0;    
     
 }
+.paginas{
+    display:flex;
+    justify-content: space-between;
+}
+#area1 li,#area2 li{
+    font-family: normal;
+    display: flex;
+    list-style: none;
+    float: left;
+    padding: 5px;
+    font-size: 1.2em;
+    color: var(--cor4);
+    margin: 0px 10px 0px;
+
+}
