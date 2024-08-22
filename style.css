@@ -1,0 +1,157 @@
+@font-face {
+    font-family: especial;
+    src: url(fonte/Darling\ Coffee.otf);
+}
+
+@font-face {
+    font-family: normal;
+    src: url(fonte/TT\ Interphases\ Pro\ Mono\ Trial\ Bold.ttf)
+}
+
+:root {
+    --cor1: #eaddf9;
+    --cor2: #ccc0d6;
+    --cor3: #b296d9;
+    --cor4: #574f73;
+    --cor5: #ded3e3;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Cor de fundo*/
+body {
+    background-color: var(--cor1);
+
+}
+
+/*Titulo*/
+h2 {
+    font-size: 150px;
+    color: #240046;
+    font-family: especial;
+    text-align: center;
+    margin-bottom: 70px;
+    padding-top: 200px;
+}
+
+/*classe geral*/
+.container-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 800px;
+    height: 500px;
+    background-color: var(--cor3);
+    border-radius: 40px;
+    padding: 20px;
+    box-shadow: 0 0 2em #240046;
+}
+
+/*classe da imagem que vai ficar ao lado do form*/
+.container-img img {
+    height: 400px;
+    margin-left: -170px;
+    margin-right: 130px;
+    padding: auto;
+}
+
+/*class do form*/
+.form-container {
+    display: flex;
+    align-items: calc(-100%);
+    flex-direction: column;
+    max-width: 100%;
+    width: 100px;
+}
+
+input[type="text"],
+input[type="password"] {
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid --cor4;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: normal;
+}
+
+input[type="submit"] {
+    display: flex;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    font-size: 16px;
+
+    border-radius: 6px;
+    font-family: especial;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+.mensagem {
+    margin-top: 20px;
+    font-family: normal;
+    display: contents;
+}
+
+.mensagem a {
+    font-family: normal;
+}
+
+.senha-container {
+    position: relative;
+}
+
+.senha-container i {
+    cursor: pointer;
+    position: absolute;
+    left: 200px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--cor5);
+    pointer-events: visible;
+}
+
+.senha-container i:hover {
+    color: var(--cor4);
+}
+@media screen and (max-width: 1000px){
+    /*topo do site*/
+    h2 {
+        font-size: 100px;
+        margin-bottom: 40px;
+        padding-top: 90px;
+    }
+    /*container */
+    .container-img img {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin:0px auto 0px auto;
+
+    }
+    .container-img {
+        flex-direction: column;
+        margin: 20px;
+        width: 345px;
+        height: 350px;
+        padding: 5px;
+    
+    }
+    .form-container {
+        align-items: calc(-100%);
+        flex-direction: column;
+        max-width: 100%;
+        width: 100px;
+    }
+    
+}
