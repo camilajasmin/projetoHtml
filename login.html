@@ -11,21 +11,20 @@
     <body>
         <h2>Login</h2>
             <div class="container-img"> 
-                <img src="img/caoegato.png">
-                <div class="form-container"> 
+                <img src="img/caoegato.png"
                     <form id="login">
                         <input type="text" name="usuario" placeholder="Usuário" required>
                         <div class="senha-container">
                             <input type="password" id="senha" placeholder="Senha" required>
                             <i class="bi bi-eye-fill" id="btn-senha" onclick="mostrarSenha()"></i>
-
                         </div>
                         <input type="submit" value="Entrar">
+                    <p class="mensagem">Não tem uma conta? <a href="cadastro.html">Cadastre-se aqui</a></p>
+
                     </form>
             
-            <p class="mensagem">Não tem uma conta? <a href="cadastro.html">Cadastre-se aqui</a></p>
-            </div>   
-        </div>
+                  
+            </div>
 
             <script>
                 function mostrarSenha(){

@@ -55,18 +55,8 @@ h2 {
 /*classe da imagem que vai ficar ao lado do form*/
 .container-img img {
     height: 400px;
-    margin-left: -170px;
-    margin-right: 130px;
     padding: auto;
-}
-
-/*class do form*/
-.form-container {
-    display: flex;
-    align-items: calc(-100%);
-    flex-direction: column;
-    max-width: 100%;
-    width: 100px;
+    margin: 0px auto 0px auto;
 }
 
 input[type="text"],
@@ -86,7 +76,6 @@ input[type="submit"] {
     background-color: #333;
     color: white;
     font-size: 16px;
-
     border-radius: 6px;
     font-family: especial;
 }
@@ -133,8 +122,8 @@ input[type="submit"]:hover {
     }
     /*container */
     .container-img img {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 90px;
         padding: 10px;
         margin:0px auto 0px auto;
 
@@ -142,16 +131,22 @@ input[type="submit"]:hover {
     .container-img {
         flex-direction: column;
         margin: 20px;
-        width: 345px;
-        height: 350px;
+        width: 350px;
+        height: 380px;
         padding: 5px;
-    
+        margin: 0px auto 0px auto;
     }
-    .form-container {
-        align-items: calc(-100%);
-        flex-direction: column;
-        max-width: 100%;
-        width: 100px;
+
+    #login{
+        width: 200px;
     }
-    
+
+    input[type="text"],
+    input[type="password"] {
+        justify-content: center;
+        border-radius: 4px;
+    }
+    input[type="submit"] {
+    margin: 0px auto 0px auto;
+    }
 }
