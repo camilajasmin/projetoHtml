@@ -118,6 +118,109 @@ input[type="submit"]:hover {
     color: var(--cor4);
 }
 
+/*pÁGINA HOME--------------------------*/
+
+/*header banner topo*/
+#menuInicial{
+    width: 1350px;
+    justify-content: space-between;
+}
+.menu{
+    font-family: normal;
+    list-style: none;
+    color: var(--cor4);
+    display: flex;
+    float: left;
+}
+.menu li{
+    padding: 3px;
+    margin: 5px;
+    font-size: 1.2em;
+    color: var(--cor4);
+}
+.menu li a{
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: rgb(255, 251, 217);
+}
+#menuInicial, .bannerTopo{
+    margin: 30px auto 20px auto;
+    display: flex;
+}
+
+.bannerTopo{
+    width: 1400px;
+    height: 500px;
+    border: 5px solid var(--cor3);
+    border-radius: 30px;
+    background-color: var(--cor4);
+    justify-content: space-around;
+}
+
+.bannerTopo img{
+    height: 800px;
+}
+
+.bannerTopo h1{
+    font-family: especial;
+    color: beige;
+    font-size: 10.0em ;
+    margin: auto;
+}
+
+/*conteúdo texto section main*/
+
+main {
+    width: 1320px;
+    margin: 30px auto 20px auto;
+}
+main h1{
+    font-size: 2.6em;
+    margin: 40px 0px 20px 0px;
+    font-family: especial;
+    color: var(--cor1);
+    text-shadow: 0px -1px #240046, 1px 0px #240046, 0px 1px #240046, -1px 0px #240046;
+    
+}
+section{
+    margin: 25px 0px 25px 0px;
+    font-size: 1.1em;
+    width: 800px;
+    border: 1px solid #240046;
+    padding: 25px;
+}
+section p{
+    color: #340064;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#tituloSection, #tituloSection2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 1.4em;
+    color: #ccc0d6;
+    margin: 6px 0px 6px 0px;
+    text-shadow: 0px -1px #240046, 1px 0px #240046, 0px 1px #240046, -1px 0px #240046;
+}
+#servico_petcho{
+    border-radius: 0px 15px ;
+
+}
+#servico_petcho2{
+    border-radius: 15px 0px ;
+}
+#tituloSection2, #sec2{
+    text-align: end;
+}
+#sectionSec{
+    width: 1320px;
+    justify-content: end;
+    display: flex;
+    padding: 0px;
+    margin-top: 2px;
+}
+
+
 @media screen and (max-width: 1000px) {
 
     /*topo do site*/
