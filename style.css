@@ -156,10 +156,11 @@ input[type="submit"]:hover {
     border-radius: 30px;
     background-color: var(--cor4);
     justify-content: space-around;
+    box-shadow: 0px 5px 15px black;
 }
 
 .bannerTopo img{
-    height: 800px;
+    height: 796px;
 }
 
 .bannerTopo h1{
