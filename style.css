@@ -142,7 +142,7 @@ input[type="submit"]:hover {
     text-decoration: none;
 }
 .menu li a:hover{
-    color: rgb(255, 251, 217);
+    color: #ccc0d6;
 }
 #menuInicial, .bannerTopo{
     margin: 30px auto 20px auto;
@@ -230,16 +230,21 @@ section p{
 
 /*galeria*/
 .wrapper{
-    background-color: #240046;
+    margin-top: 20px;
     height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    padding: 10px;
 }
 .image{
     height: 300px;
     position: relative;
+    margin: 10px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px black
 }
 .image img{
     height: 300px;
@@ -272,9 +277,10 @@ section p{
 .contentio p{
     color: beige;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: .7em;
+    font-size: .8em;
     margin: 3px auto 3px auto;
     opacity: 50%;
+    text-align: center;
 }
 
 @media screen and (max-width: 1000px) {
