@@ -22,14 +22,14 @@
     border: 0;
 }
 
-/*Cor de fundo*/
+/**********PÁGINA LOGIN********/
 body {
     background-color: var(--cor1);
 
 }
 
 /*Titulo*/
-h2 {
+#titulo h2 {
     font-size: 90px;
     color: #240046;
     font-family: especial;
@@ -79,7 +79,7 @@ input[type="submit"] {
     background-color: #333;
     color: white;
     font-size: 16px;
-    border-radius: 6px;
+    border-radius: 8px;
     font-family: especial;
     text-align: center;
 }
@@ -226,7 +226,7 @@ section p{
 @media screen and (max-width: 1000px) {
 
     /*topo do site*/
-    h2 {
+    #titulo h2 {
         font-size: 95px;
         margin-bottom: 40px;
         padding-top: 90px;
