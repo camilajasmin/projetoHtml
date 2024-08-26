@@ -423,14 +423,13 @@ section p {
 /*area de anuncio de produtos ou serviços*/
 .areaAnuncio {
     display: flex;
-    justify-content: space-between;
-    background-color: aqua;
+    justify-content: space-around;
+    max-width: 1320px;
 }
 
 .anuncio {
     display: flex;
     justify-content: space-between;
-    background-color: brown;
     margin: 10px 5px 10px 5px;
     border-radius: 16px;
     padding: 10px;
@@ -448,9 +447,8 @@ section p {
 .imgAnuncio img {
     width: 600px;
 }
-
-.txtAnuncio {
-
+.txtAnuncio{
+   
     padding: 5px;
     text-align: start;
 }
