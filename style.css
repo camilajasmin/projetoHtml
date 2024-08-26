@@ -172,7 +172,7 @@ input[type="submit"]:hover {
 
 /*conteúdo texto section main*/
 
-main {
+main, .subAreaCtt, .tituloContato h1 {
     width: 1320px;
     margin: 30px auto 20px auto;
 }
@@ -202,7 +202,7 @@ section p{
     color: beige;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-#tituloSection, #tituloSection2{
+#tituloSection, #tituloSection2, .tituloContato{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     font-size: 1.4em;
@@ -231,6 +231,7 @@ section p{
 /*galeria*/
 .wrapper{
     margin-top: 20px;
+    margin-bottom: 20px;
     height: 300px;
     display: flex;
     justify-content: center;
@@ -281,6 +282,67 @@ section p{
     margin: 3px auto 3px auto;
     opacity: 50%;
     text-align: center;
+}
+.areaContato{
+    height: 450px;
+    background-color: #240046;
+}
+.subAreaCtt{
+    justify-content: space-between;
+    display: flex;
+}
+.colunaCtt{
+   /* background-color: chocolate;*/
+    width:300px;
+    height: 300px;
+}
+.colunaCtt h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#ccc0d6;
+    opacity: 50%;
+    margin-bottom: 15px;
+}
+.colunaCtt img{
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.colunaCtt li{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 5px;
+    list-style: none;
+    color: beige;
+    opacity: 60%;
+}
+.colunaCtt li a{
+    color: beige;
+    text-decoration: none;
+}
+.colunaCtt li a:hover{
+    text-decoration: underline;
+}
+#imgcoluna {
+   
+    width: 100%;
+    height: 100%;
+}
+#imgcoluna img{
+    width: 100%;
+    height: 100%;
+    opacity: 40%;
+}
+
+#rodape{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 20px;
+    background-color: #574f73;
+    display: flex;
+}
+#rodape p{
+    font-size: .9em;
+    color: beige;
+    opacity: 30%;
+    margin: auto;
 }
 
 @media screen and (max-width: 1000px) {
