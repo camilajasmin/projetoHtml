@@ -474,18 +474,39 @@ p {
 
 /******** Página Usuário***********/
 
-/* class menu inicial */
+/* class header menu inicial */
 ul#menulogo li {
     list-style: none;
 }
 
 #menulogo img {
-    margin-right: 790px;
+    margin-right: 40px;
     width: 30px;
     padding: 5px;
     align-items: center;
 }
+.menubot{
+    display: flex;
+    gap: 10px;
+    
+}
 
+.menubtn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--cor3);
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+    font-family: nova;
+}
+ 
+.menubtn:hover {
+    background-color: var(--cor5); /* Customize hover color as needed */
+}
 
 
 body {
