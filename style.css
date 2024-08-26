@@ -480,13 +480,13 @@ ul#menulogo li {
 }
 
 #menulogo img {
-    width: 40px;
-}
-
-a.imglogo img {
+    margin-right: 790px;
     width: 30px;
-
+    padding: 5px;
+    align-items: center;
 }
+
+
 
 body {
     background-color: var(--cor1);
