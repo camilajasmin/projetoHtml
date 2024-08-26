@@ -12,6 +12,7 @@
     font-family: nova;
     src: url(fonte/Hey\ Comic.otf);
 }
+
 :root {
     --cor1: rgba(242, 230, 247, 0.986);
     --cor2: #ccc0d6;
@@ -94,7 +95,7 @@ input[type="submit"]:hover {
 .mensagem {
     padding-top: 10px;
     font-family: normal;
-    
+
 }
 
 .mensagem a {
@@ -119,41 +120,48 @@ input[type="submit"]:hover {
 .senha-container i:hover {
     color: var(--cor4);
 }
+
 /*PÁGINA HOME--------------------------*/
 /*header banner topo*/
-#menuInicial{
+#menuInicial {
     width: 1350px;
     justify-content: space-between;
 }
-.menu{
+
+.menu {
     font-family: normal;
     list-style: none;
     color: var(--cor4);
     display: flex;
     float: left;
 }
-.menu li{
+
+.menu li {
     padding: 3px;
     margin: 5px;
     font-size: 1.2em;
-    
+
 }
-.menu li a{
+
+.menu li a {
     color: var(--cor4);
     text-decoration: none;
     text-decoration: none;
     transition: .5s;
 }
-.menu li a:hover{
+
+.menu li a:hover {
     text-decoration: underline;
     color: #ccc0d6;
 }
-#menuInicial, .bannerTopo{
+
+#menuInicial,
+.bannerTopo {
     margin: 30px auto 20px auto;
     display: flex;
 }
 
-.bannerTopo{
+.bannerTopo {
     width: 1400px;
     height: 500px;
     border: 5px solid var(--cor3);
@@ -163,36 +171,43 @@ input[type="submit"]:hover {
     box-shadow: 0px 5px 15px black;
 }
 
-.bannerTopo img{
+.bannerTopo img {
     height: 796px;
 }
 
-.bannerTopo h1{
+.bannerTopo h1 {
     font-family: especial;
     color: beige;
-    font-size: 10.0em ;
+    font-size: 10.0em;
     margin: auto;
 }
 
 /*conteúdo texto section main*/
-main, .subAreaCtt, .tituloContato h1, .introPage, .areaAnuncio {
+main,
+.subAreaCtt,
+.tituloContato h1,
+.introPage,
+.areaAnuncio {
     width: 1320px;
     margin: 30px auto 20px auto;
 }
-.tituloMain{
+
+.tituloMain {
     font-size: 2.6em;
     margin: 40px 0px 20px 0px;
     font-family: especial;
     color: var(--cor1);
     text-shadow: 0px -1px #240046, 1px 0px #240046, 0px 1px #240046, -1px 0px #240046;
 }
-.textoMain{
+
+.textoMain {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 1.0em;
     color: var(--cor4);
 }
+
 /*sections*/
-section{
+section {
     margin: 25px 0px 25px 0px;
     font-size: 1.1em;
     width: 800px;
@@ -201,13 +216,16 @@ section{
     background-color: #574f73;
     box-shadow: 0px 5px 15px black;
 }
-section p{
+
+section p {
     color: beige;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
-#tituloSection, #tituloSection2, .tituloContato{
+#tituloSection,
+#tituloSection2,
+.tituloContato {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     font-size: 1.4em;
@@ -215,16 +233,21 @@ section p{
     margin: 6px 0px 6px 0px;
     text-shadow: 0px -1px #240046, 1px 0px #240046, 0px 1px #240046, -1px 0px #240046;
 }
-#servico_petcho{
+
+#servico_petcho {
     border-radius: 0px 15px;
 }
-#servico_petcho2{
-    border-radius: 15px 0px ;
+
+#servico_petcho2 {
+    border-radius: 15px 0px;
 }
-#tituloSection2, #sec2{
+
+#tituloSection2,
+#sec2 {
     text-align: end;
 }
-#sectionSec{
+
+#sectionSec {
     width: 1320px;
     justify-content: end;
     display: flex;
@@ -233,7 +256,7 @@ section p{
 }
 
 /*galeria*/
-.wrapper{
+.wrapper {
     margin-top: 20px;
     margin-bottom: 20px;
     height: 300px;
@@ -243,7 +266,8 @@ section p{
     cursor: pointer;
     padding: 10px;
 }
-.image{
+
+.image {
     height: 300px;
     position: relative;
     margin: 10px;
@@ -251,12 +275,14 @@ section p{
     border-radius: 20px;
     box-shadow: 0px 5px 15px black
 }
-.image img{
+
+.image img {
     height: 300px;
     display: block;
     margin: auto;
 }
-.contentio{
+
+.contentio {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
@@ -270,16 +296,19 @@ section p{
     opacity: 0;
     transition: 0.6s;
 }
-.contentio:hover{
+
+.contentio:hover {
     opacity: 1;
 }
-.contentio h3{
+
+.contentio h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: beige;
     text-align: center;
     text-shadow: 3px 2px 2px black;
 }
-.contentio p{
+
+.contentio p {
     color: beige;
     font-family: Arial, Helvetica, sans-serif;
     font-size: .8em;
@@ -291,65 +320,76 @@ section p{
 
 
 /*ÁREA DE CONTATO E FOOTER*/
-.areaContato{
+.areaContato {
     height: 450px;
     background-color: #240046;
 }
-.subAreaCtt{
+
+.subAreaCtt {
     justify-content: space-between;
     display: flex;
 }
-.colunaCtt{
-   /* background-color: chocolate;*/
-    width:300px;
+
+.colunaCtt {
+    /* background-color: chocolate;*/
+    width: 300px;
     height: 300px;
 }
-.colunaCtt h4{
+
+.colunaCtt h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#ccc0d6;
+    color: #ccc0d6;
     opacity: 50%;
     margin-bottom: 15px;
 }
-.colunaCtt img{
+
+.colunaCtt img {
     width: 20px;
     margin-right: 5px;
     margin-top: 5px;
 }
-.colunaCtt li{
+
+.colunaCtt li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-bottom: 5px;
     list-style: none;
     color: beige;
     opacity: 60%;
 }
-.colunaCtt li a{
+
+.colunaCtt li a {
     color: beige;
     text-decoration: none;
 }
-.colunaCtt li a:hover{
+
+.colunaCtt li a:hover {
     text-decoration: underline;
 }
-.tituloContato h1{
+
+.tituloContato h1 {
     padding: 15px;
 }
-#imgcoluna{
+
+#imgcoluna {
     width: 100%;
     height: 100%;
 }
-#imgcoluna img{
+
+#imgcoluna img {
     width: 100%;
     height: 100%;
     opacity: 40%;
 }
 
 /*FOOTER RODAPE DIREITOS*/
-#rodape{
+#rodape {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 20px;
     background-color: #574f73;
     display: flex;
 }
-#rodape p{
+
+#rodape p {
     font-size: .9em;
     color: beige;
     opacity: 30%;
@@ -358,8 +398,9 @@ section p{
 
 /*ÁREA SERVIÇOS E PRODUTOS*/
 /*INTROPAGE*/
-.introPage{}
-.introPage h2{
+.introPage {}
+
+.introPage h2 {
     color: var(--cor1);
     justify-content: center;
     display: flex;
@@ -368,23 +409,25 @@ section p{
     text-shadow: 0px -1px #240046, 1px 0px #240046, 0px 1px #240046, -1px 0px #240046;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.introPage p{
+
+.introPage p {
     color: #574f73;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     line-height: 27px;
     font-size: 1.2em;
-    font-weight: bold; 
+    font-weight: bold;
 
 }
 
 /*area de anuncio de produtos ou serviços*/
-.areaAnuncio{
+.areaAnuncio {
     display: flex;
     justify-content: space-between;
     background-color: aqua;
 }
-.anuncio{
+
+.anuncio {
     display: flex;
     justify-content: space-between;
     background-color: brown;
@@ -393,32 +436,41 @@ section p{
     padding: 10px;
     border: 3px dotted var(--cor4);
 }
-.imgAnuncio{
+
+.imgAnuncio {
     height: 200px;
     background-color: crimson;
     overflow: hidden;
     display: flex;
     justify-content: center;
 }
-.imgAnuncio img{
+
+.imgAnuncio img {
     width: 600px;
 }
-.txtAnuncio{
-   
+
+.txtAnuncio {
+
     padding: 5px;
     text-align: start;
 }
-.txtAnuncio h3,h4,h5, p{
+
+.txtAnuncio h3,
+h4,
+h5,
+p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #240046;
     margin-top: 4px;
 }
-.txtAnuncio h2{
+
+.txtAnuncio h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--cor1);
     text-shadow: 0px -1px #240046, 1px 0px #240046, 0px 1px #240046, -1px 0px #240046;
 }
-.txtAnuncio h5{
+
+.txtAnuncio h5 {
     text-decoration: underline;
 }
 
@@ -439,43 +491,31 @@ a.imglogo img {
 }
 
 body {
-    background-color: white;
+    background-color: var(--cor1);
 }
 
 /* class perfiluser */
 #titulodiv1 {
     font-family: nova;
     text-align: center;
+    padding: 20px;
 
-}
-
-#nomeuser h3 {
-    padding: 10px;
-    font-family: especial;
 }
 
 .conteudouser {
     background-color: var(--cor2);
+    border-width: 2px;
+    border-style: dashed;
+    border-color: var(--cor4);
     border-radius: 70px;
-    width: auto;
+    width: 800px;
     padding: 10px;
 }
 
-.servicouser {
-    box-sizing: content-box;
-    padding: 10px;
-    background: var(--cor4);
-    border-radius: 10px;
-
-    border: var(--cor5);
-    margin: 20px auto;
-    width: 700px;
-    height: 190px;
-}
-
-.nomeserv {
-    padding: 1px;
-    /* Espaçamento interno */
+#nomeuser h2 {
+    padding: 15px;
+    margin-left: 20px;
+    font-family: especial;
 }
 
 #titulodiv2 {
@@ -483,27 +523,46 @@ body {
     text-align: center;
 }
 
+.servicouser {
+    box-sizing: content-box;
+    padding: 10px;
+    background: var(--cor4);
+    border-radius: 20px;
+    border: var(--cor5);
+    margin: 20px auto;
+    width: 700px;
+    height: 190px;
+}
 .nomeserv h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: var(--cor1);
+}
+.nomeserv {
+    padding: 1px;
+    /* Espaçamento interno */
+}
 
-    font-family: verdana;
-    font-size: medium;
-    margin-top: 15px;
-    margin-right: 25px;
-    margin-bottom: 10px;
-    margin-left: 20px;
-    color: rgb(245, 239, 239);
+.nomeserv p#serv_descuser {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: var(--cor1);
 }
 
 .serv_descuser {
     list-style: none;
 }
 
-.sobreserv {
+.sobreserv p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-left: 10px;
     margin-top: 10px;
     font-size: 20px;
-    color: rgb(245, 239, 239);
+    color: rgb(255, 255, 255);
 
 }
 
@@ -516,8 +575,7 @@ body {
     box-sizing: content-box;
     padding: 10px;
     background: var(--cor4);
-    border-radius: 10px;
-    box-shadow: 0em 0 1em #3a2255;
+    border-radius: 20px;
     border: var(--cor5);
     margin: 20px auto;
     width: 700px;
@@ -529,17 +587,14 @@ body {
     margin-left: 10px;
     margin-top: 10px;
     font-size: 20px;
-
+    color: var(--cor1);
 }
 
 .imgprodutos img {
     width: 180px;
     margin-left: 250px;
     border-radius: 20px;
-
-
 }
-
 
 @media screen and (max-width: 1000px) {
 
@@ -572,6 +627,7 @@ body {
         width: 200px;
         margin: 0px auto 0px auto;
     }
+
     /*caixa de usuario e senha*/
     input[type="text"],
     input[type="password"] {
@@ -579,14 +635,17 @@ body {
         border-radius: 4px;
         margin-left: -12px;
     }
+
     /*botão entrar*/
     input[type="submit"] {
         margin: 5px auto 0px auto;
     }
+
     /*eye-fill*/
     .senha-container i {
         left: 195px;
     }
+
     /*class mensagem*/
     .mensagem {
         padding-top: 10px;
