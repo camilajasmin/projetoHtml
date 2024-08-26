@@ -171,7 +171,7 @@ input[type="submit"]:hover {
 }
 
 /*conteúdo texto section main*/
-main, .subAreaCtt, .tituloContato h1, .introPage {
+main, .subAreaCtt, .tituloContato h1, .introPage, .areaAnuncio {
     width: 1320px;
     margin: 30px auto 20px auto;
 }
@@ -201,6 +201,7 @@ section p{
     color: beige;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
 
 #tituloSection, #tituloSection2, .tituloContato{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -324,6 +325,9 @@ section p{
 .colunaCtt li a:hover{
     text-decoration: underline;
 }
+.tituloContato h1{
+    padding: 15px;
+}
 #imgcoluna{
     width: 100%;
     height: 100%;
@@ -332,6 +336,20 @@ section p{
     width: 100%;
     height: 100%;
     opacity: 40%;
+}
+
+/*FOOTER RODAPE DIREITOS*/
+#rodape{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 20px;
+    background-color: #574f73;
+    display: flex;
+}
+#rodape p{
+    font-size: .9em;
+    color: beige;
+    opacity: 30%;
+    margin: auto;
 }
 
 /*ÁREA SERVIÇOS E PRODUTOS*/
@@ -352,23 +370,54 @@ section p{
     text-align: center;
     line-height: 27px;
     font-size: 1.2em;
-    font-weight: bold;
-    
+    font-weight: bold; 
+
 }
 
-/*FOOTER RODAPE DIREITOS*/
-#rodape{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    height: 20px;
-    background-color: #574f73;
+/*area de anuncio de produtos ou serviços*/
+.areaAnuncio{
     display: flex;
+    justify-content: space-between;
+    background-color: aqua;
 }
-#rodape p{
-    font-size: .9em;
-    color: beige;
-    opacity: 30%;
-    margin: auto;
+.anuncio{
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+    margin: 10px 5px 10px 5px;
+    border-radius: 16px;
+    padding: 10px;
+    border: 3px dotted var(--cor4);
 }
+.imgAnuncio{
+    height: 200px;
+    background-color: crimson;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.imgAnuncio img{
+    width: 600px;
+}
+.txtAnuncio{
+   
+    padding: 5px;
+    text-align: start;
+}
+.txtAnuncio h3,h4,h5, p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #240046;
+    margin-top: 4px;
+}
+.txtAnuncio h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--cor1);
+    text-shadow: 0px -1px #240046, 1px 0px #240046, 0px 1px #240046, -1px 0px #240046;
+}
+.txtAnuncio h5{
+    text-decoration: underline;
+}
+
 
 @media screen and (max-width: 1000px) {
 
