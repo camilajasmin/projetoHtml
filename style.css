@@ -321,6 +321,7 @@ section p {
 
 /*ÁREA DE CONTATO E FOOTER*/
 .areaContato {
+    
     height: 450px;
     background-color: #240046;
 }
@@ -422,9 +423,12 @@ section p {
 
 /*area de anuncio de produtos ou serviços*/
 .areaAnuncio {
-    display: flex;
     justify-content: space-around;
     max-width: 1320px;
+}
+.areaAnuncio img{
+    height: 250px;
+    border-radius: 15px;
 }
 
 .anuncio {
@@ -443,6 +447,7 @@ section p {
     display: flex;
     justify-content: center;
 }
+<<<<<<< HEAD
 
 .imgAnuncio img {
     width: 600px;
@@ -450,6 +455,10 @@ section p {
 
 .txtAnuncio {
 
+=======
+.txtAnuncio{
+   
+>>>>>>> 49d34cebd3140cee57db53b8a5fc838ca5f9b556
     padding: 5px;
     text-align: start;
 }
@@ -461,6 +470,7 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #240046;
     margin-top: 4px;
+    text-align: start;
 }
 
 .txtAnuncio h2 {
@@ -620,6 +630,7 @@ body {
     border-radius: 20px;
 }
 
+
 /*****QUEM SOMOS****/
 
 
@@ -679,6 +690,42 @@ p#text_prop{
 }
 
 
+
+
+/*cadastro serviço oferecido pelo usuário*/
+.areaCadastro{
+    /*background-color: chocolate;*/
+    margin-bottom: 200px;
+    height: 500px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.areaCadastro label{
+    font-size: 1.4em;
+    color: #240046;
+    margin-top: 5px;
+    margin-bottom: 8px;
+}
+
+#funcoesServ, #contatoServ, #valorServ, #dispoServ, #descServ, #nomeProd, #precoProd, #qtdProd, #descProd, #categoriaProd {
+    border: 3px solid #240046;
+    border-radius: 12px;
+    font-size: 1.2em;
+    margin: 0px 0px 15px 0px;
+    background-color: white;
+}
+#funcoesServ, #contatoServ, #categoriaProd{
+    height: 50px;
+}
+#contatoServ, #valorServ, #dispoServ, #descServ, #descProd{
+    width: 500px;
+}
+#descServ, #descProd{
+    height: 150px;
+    padding: 3px;
+}
+
+/*RESPONSIVIDADE DO SITEEEEEE*/
 
 @media screen and (max-width: 1000px) {
 
